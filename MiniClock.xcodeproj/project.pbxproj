@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D525CBE27829E030043164B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D525CBD27829E030043164B /* Utils.swift */; };
+		1D7BFC2F27808EFC00AEA158 /* FFT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BFC2C27808EFB00AEA158 /* FFT.ttf */; };
+		1D7BFC3027808EFC00AEA158 /* Pixel-LCD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */; };
+		1D7BFC3127808EFC00AEA158 /* ATTPhone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */; };
+		1D915F16278086C800205FBC /* DigitalClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D915F15278086C800205FBC /* DigitalClock.swift */; };
+		1D915F1B278086E700205FBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D915F1A278086E700205FBC /* ContentView.swift */; };
+		1DDDA74F27817034008C896E /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDA74E27817034008C896E /* Prefs.swift */; };
+		1DFF273E277DC4B60061D3D6 /* MiniClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFF273D277DC4B60061D3D6 /* MiniClockApp.swift */; };
+		1DFF2740277DC4B60061D3D6 /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFF273F277DC4B60061D3D6 /* AnalogClock.swift */; };
+		1DFF2742277DC4C20061D3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFF2741277DC4C20061D3D6 /* Assets.xcassets */; };
+		1DFF2745277DC4C20061D3D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFF2744277DC4C20061D3D6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D525CBD27829E030043164B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1D7BFC2C27808EFB00AEA158 /* FFT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FFT.ttf; sourceTree = "<group>"; };
+		1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pixel-LCD.ttf"; sourceTree = "<group>"; };
+		1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ATTPhone.ttf; sourceTree = "<group>"; };
+		1D915F15278086C800205FBC /* DigitalClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClock.swift; sourceTree = "<group>"; };
+		1D915F1A278086E700205FBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DDDA74E27817034008C896E /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
+		1DFF273A277DC4B60061D3D6 /* MiniClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DFF273D277DC4B60061D3D6 /* MiniClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniClockApp.swift; sourceTree = "<group>"; };
+		1DFF273F277DC4B60061D3D6 /* AnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
+		1DFF2741277DC4C20061D3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DFF2744277DC4C20061D3D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DFF2746277DC4C20061D3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DFF2737277DC4B60061D3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7BFC2A27808EE800AEA158 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1D7BFC2C27808EFB00AEA158 /* FFT.ttf */,
+				1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */,
+				1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1DFF2731277DC4B60061D3D6 = {
+			isa = PBXGroup;
+			children = (
+				1DFF273C277DC4B60061D3D6 /* MiniClock */,
+				1DFF273B277DC4B60061D3D6 /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		1DFF273B277DC4B60061D3D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DFF273A277DC4B60061D3D6 /* MiniClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DFF273C277DC4B60061D3D6 /* MiniClock */ = {
+			isa = PBXGroup;
+			children = (
+				1D7BFC2A27808EE800AEA158 /* Fonts */,
+				1DFF273D277DC4B60061D3D6 /* MiniClockApp.swift */,
+				1D915F1A278086E700205FBC /* ContentView.swift */,
+				1DFF273F277DC4B60061D3D6 /* AnalogClock.swift */,
+				1D915F15278086C800205FBC /* DigitalClock.swift */,
+				1DFF2741277DC4C20061D3D6 /* Assets.xcassets */,
+				1DFF2746277DC4C20061D3D6 /* Info.plist */,
+				1DFF2743277DC4C20061D3D6 /* Preview Content */,
+				1DDDA74E27817034008C896E /* Prefs.swift */,
+				1D525CBD27829E030043164B /* Utils.swift */,
+			);
+			path = MiniClock;
+			sourceTree = "<group>";
+		};
+		1DFF2743277DC4C20061D3D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DFF2744277DC4C20061D3D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DFF2739277DC4B60061D3D6 /* MiniClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DFF2749277DC4C20061D3D6 /* Build configuration list for PBXNativeTarget "MiniClock" */;
+			buildPhases = (
+				1DFF2736277DC4B60061D3D6 /* Sources */,
+				1DFF2737277DC4B60061D3D6 /* Frameworks */,
+				1DFF2738277DC4B60061D3D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniClock;
+			productName = MiniClock;
+			productReference = 1DFF273A277DC4B60061D3D6 /* MiniClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DFF2732277DC4B60061D3D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1DFF2739277DC4B60061D3D6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1DFF2735277DC4B60061D3D6 /* Build configuration list for PBXProject "MiniClock" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DFF2731277DC4B60061D3D6;
+			productRefGroup = 1DFF273B277DC4B60061D3D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DFF2739277DC4B60061D3D6 /* MiniClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DFF2738277DC4B60061D3D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7BFC3127808EFC00AEA158 /* ATTPhone.ttf in Resources */,
+				1D7BFC3027808EFC00AEA158 /* Pixel-LCD.ttf in Resources */,
+				1D7BFC2F27808EFC00AEA158 /* FFT.ttf in Resources */,
+				1DFF2745277DC4C20061D3D6 /* Preview Assets.xcassets in Resources */,
+				1DFF2742277DC4C20061D3D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DFF2736277DC4B60061D3D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFF2740277DC4B60061D3D6 /* AnalogClock.swift in Sources */,
+				1D915F16278086C800205FBC /* DigitalClock.swift in Sources */,
+				1DDDA74F27817034008C896E /* Prefs.swift in Sources */,
+				1D915F1B278086E700205FBC /* ContentView.swift in Sources */,
+				1DFF273E277DC4B60061D3D6 /* MiniClockApp.swift in Sources */,
+				1D525CBE27829E030043164B /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DFF2747277DC4C20061D3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DFF2748277DC4C20061D3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DFF274A277DC4C20061D3D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MiniClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.4.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DFF274B277DC4C20061D3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MiniClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.4.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DFF2735277DC4B60061D3D6 /* Build configuration list for PBXProject "MiniClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFF2747277DC4C20061D3D6 /* Debug */,
+				1DFF2748277DC4C20061D3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DFF2749277DC4C20061D3D6 /* Build configuration list for PBXNativeTarget "MiniClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DFF274A277DC4C20061D3D6 /* Debug */,
+				1DFF274B277DC4C20061D3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DFF2732277DC4B60061D3D6 /* Project object */;
+}
