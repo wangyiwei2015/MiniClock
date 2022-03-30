@@ -125,7 +125,7 @@ struct AnalogClockView: View {
             Capsule().fill().foregroundColor(index == minNum ? colors[currentColorIndex] : (index % 5 == 0 ? .gray : .adaptiveGray(5)))
                 .frame(width: 8, height: minNum == index ? 30 : 20).offset(y: -180)
                 .rotationEffect(Angle(degrees: Double(index * 6)))
-                .animation(.linear)
+                .animation(.linear, value: minNum)
         }
     }
     
@@ -146,7 +146,7 @@ struct AnalogClockView: View {
             .foregroundColor(.adaptiveGray(3))
             .frame(width: 12, height: 80).offset(y: -40)
             .rotationEffect(Angle(degrees: Double(hrDeg * 30 + minDeg / 2)))
-            .animation(ani)
+            .animation(ani, value: hrDeg)
             .shadow(color: Color(UIColor(white: 0, alpha: 0.4)), radius: 2, x: 0, y: 2)
 //                    .simultaneousGesture(
 //                        DragGesture()
@@ -169,13 +169,13 @@ struct AnalogClockView: View {
             .foregroundColor(.adaptiveGray(2))
             .frame(width: 10, height: 120).offset(y: -60)
             .rotationEffect(Angle(degrees: Double(minDeg * 6/* + secDeg / 10*/)))
-            .animation(ani)
+            .animation(ani, value: minDeg)
             .shadow(color: Color(UIColor(white: 0, alpha: 0.4)), radius: 3, x: 0, y: 3)
         Capsule(style: .continuous).fill()
             .foregroundColor(colors[currentColorIndex])
             .frame(width: 6, height: 160).offset(y: -80)
             .rotationEffect(Angle(degrees: Double(secDeg * 6)))
-            .animation(ani)
+            .animation(ani, value: secDeg)
             .shadow(color: Color(UIColor(white: 0, alpha: 0.4)), radius: 4, x: 0, y: 4)
         Circle().fill().foregroundColor(.adaptiveGray(4))
             .frame(width: 16, height: 16)
@@ -185,7 +185,7 @@ struct AnalogClockView: View {
     @ViewBuilder
     func SpringSliders() -> some View {
         HStack {
-            Text("Response .\(Int(response * 10))")
+            Text("\(localized("Response ."))\(Int(response * 10))")
             Slider(
                 value: $response,
                 in: ClosedRange<Double>(uncheckedBounds: (lower: 0.1, upper: 0.9)),
@@ -196,7 +196,7 @@ struct AnalogClockView: View {
             }.accentColor(.gray)
         }
         HStack {
-            Text("Damping  .\(Int(damping * 10))")
+            Text("\(localized("Damping  ."))\(Int(damping * 10))")
             Slider(
                 value: $damping,
                 in: ClosedRange<Double>(uncheckedBounds: (lower: 0.1, upper: 0.9)),
@@ -212,7 +212,7 @@ struct AnalogClockView: View {
     func ColorConfig() -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
-                ForEach(0..<colors.count) {index in
+                ForEach(0..<colors.count, id: \.self) {index in
                     Button {
                         configHaptic.impactOccurred()
                         withAnimation {
@@ -245,7 +245,7 @@ struct AnalogClockView: View {
                         configMode = false
                     }
                 } label: {
-                    Text("Done")
+                    Text(localized("Done"))
                         .font(.system(size: 28))
                         .foregroundColor(.gray)
                         .padding()

@@ -11,14 +11,25 @@ struct DigitalClockView: View {
     //@Binding var clockType: ClockType
     @Binding var configMode: Bool
     
-    @State var timeString: String = "88:88:88"
-    @State var currentFont: Int = 0
-    @State var colorIndex: Int = 0
+    @State var timeString: String = "--:--:--"
+    @State var currentFont: Int = 0//Settings.shared.digitalFontIndex
+    @State var colorIndex: Int = Settings.shared.digitalColorIndex
     @State var displaySize: CGFloat = Settings.shared.digitalSize < 0.5 ? 1.0 : Settings.shared.digitalSize
     @State var isSettingSize: Bool = false
     
-    let fonts: [String] = ["LCD AT&T Phone Time/Date", "Fanfare Ticker Semi-Italic", "Pixel LCD7"]
-    let fontSizeScales: [CGFloat] = [1.0, 1.0, 0.6]
+    let fonts: [String] = [
+//        "LCD AT&T Phone Time/Date",
+//        "Fanfare Ticker Semi-Italic",
+//        "Pixel LCD7",
+        
+        "Datdot",
+        "E1234",
+        "Electronic Highway Sign",
+    ]
+    let fontSizeScales: [CGFloat] = [
+//        1.0, 1.0, 0.6,
+        0.8, 0.55, 0.7,
+    ]
     let foreColors: [Color] = [
         .primary,
         .green,
@@ -116,7 +127,7 @@ struct DigitalClockView: View {
     func FontConfig() -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
-                ForEach(0..<fonts.count) {index in
+                ForEach(0..<fonts.count, id: \.self) {index in
                     Button {
                         configHaptic.impactOccurred()
                         withAnimation {
@@ -142,7 +153,7 @@ struct DigitalClockView: View {
     func ColorConfig() -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
-                ForEach(0..<backColors.count) {index in
+                ForEach(0..<backColors.count, id: \.self) {index in
                     Button {
                         configHaptic.impactOccurred()
                         withAnimation {
@@ -167,7 +178,7 @@ struct DigitalClockView: View {
     @ViewBuilder
     func SizeConfig() -> some View {
         HStack {
-            Text("Size \(String(format:"%.1f", displaySize))")
+            Text("\(localized("Size")) \(String(format:"%.1f", displaySize))")
             Slider(
                 value: $displaySize,
                 in: ClosedRange<CGFloat>(uncheckedBounds: (lower: 0.5, upper: 3.0)),

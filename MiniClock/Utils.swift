@@ -22,3 +22,7 @@ extension Color {
         }
     }
 }
+
+@inlinable func localized(_ str: String) -> String {
+    NSLocalizedString(str, comment: "")
+}

@@ -18,6 +18,10 @@
 		1DFF2740277DC4B60061D3D6 /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFF273F277DC4B60061D3D6 /* AnalogClock.swift */; };
 		1DFF2742277DC4C20061D3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFF2741277DC4C20061D3D6 /* Assets.xcassets */; };
 		1DFF2745277DC4C20061D3D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFF2744277DC4C20061D3D6 /* Preview Assets.xcassets */; };
+		4DA546CB27F4438D00CD04EF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546CD27F4438D00CD04EF /* Localizable.strings */; };
+		4DA546D927F44DA200CD04EF /* E1234-p7pER.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D427F44C2100CD04EF /* E1234-p7pER.ttf */; };
+		4DA546DA27F44DA200CD04EF /* Datdot-K7prl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D327F44BFA00CD04EF /* Datdot-K7prl.ttf */; };
+		4DA546DB27F44DA200CD04EF /* EHSMB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D527F44C2100CD04EF /* EHSMB.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,11 @@
 		1DFF2741277DC4C20061D3D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DFF2744277DC4C20061D3D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DFF2746277DC4C20061D3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA546CC27F4438D00CD04EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4DA546CE27F443A800CD04EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4DA546D327F44BFA00CD04EF /* Datdot-K7prl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Datdot-K7prl.ttf"; sourceTree = "<group>"; };
+		4DA546D427F44C2100CD04EF /* E1234-p7pER.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "E1234-p7pER.ttf"; sourceTree = "<group>"; };
+		4DA546D527F44C2100CD04EF /* EHSMB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = EHSMB.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 		1D7BFC2A27808EE800AEA158 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4DA546CF27F44BED00CD04EF /* New */,
 				1D7BFC2C27808EFB00AEA158 /* FFT.ttf */,
 				1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */,
 				1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */,
@@ -87,6 +97,7 @@
 				1DFF2743277DC4C20061D3D6 /* Preview Content */,
 				1DDDA74E27817034008C896E /* Prefs.swift */,
 				1D525CBD27829E030043164B /* Utils.swift */,
+				4DA546CD27F4438D00CD04EF /* Localizable.strings */,
 			);
 			path = MiniClock;
 			sourceTree = "<group>";
@@ -97,6 +108,16 @@
 				1DFF2744277DC4C20061D3D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DA546CF27F44BED00CD04EF /* New */ = {
+			isa = PBXGroup;
+			children = (
+				4DA546D327F44BFA00CD04EF /* Datdot-K7prl.ttf */,
+				4DA546D427F44C2100CD04EF /* E1234-p7pER.ttf */,
+				4DA546D527F44C2100CD04EF /* EHSMB.TTF */,
+			);
+			path = New;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +161,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1DFF2731277DC4B60061D3D6;
 			productRefGroup = 1DFF273B277DC4B60061D3D6 /* Products */;
@@ -157,6 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D7BFC3127808EFC00AEA158 /* ATTPhone.ttf in Resources */,
+				4DA546D927F44DA200CD04EF /* E1234-p7pER.ttf in Resources */,
+				4DA546DA27F44DA200CD04EF /* Datdot-K7prl.ttf in Resources */,
+				4DA546DB27F44DA200CD04EF /* EHSMB.TTF in Resources */,
+				4DA546CB27F4438D00CD04EF /* Localizable.strings in Resources */,
 				1D7BFC3027808EFC00AEA158 /* Pixel-LCD.ttf in Resources */,
 				1D7BFC2F27808EFC00AEA158 /* FFT.ttf in Resources */,
 				1DFF2745277DC4C20061D3D6 /* Preview Assets.xcassets in Resources */,
@@ -182,11 +208,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		4DA546CD27F4438D00CD04EF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DA546CC27F4438D00CD04EF /* en */,
+				4DA546CE27F443A800CD04EF /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1DFF2747277DC4C20061D3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -248,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -305,17 +345,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MiniClock/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.4.3;
+				MARKETING_VERSION = 0.4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -329,17 +369,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MiniClock/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.4.3;
+				MARKETING_VERSION = 0.4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

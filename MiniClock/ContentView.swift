@@ -38,7 +38,7 @@ struct ContentView: View {
                 }
                 Spacer()
                 if !configMode && !Settings.shared.userLearntLongPress {
-                    Text("Long press = config")
+                    Text("Long press = CONFIG")
                         .font(.system(size: 28))
                         .foregroundColor(.gray)
                         .padding(40)
@@ -53,7 +53,7 @@ struct ContentView: View {
             Button {
                 withAnimation() {clockType = 0}
             } label: {
-                Text("Analog").foregroundColor(.primary)
+                Text(localized("Analog")).foregroundColor(.primary)
             }
             .padding(.horizontal).padding(.vertical, 10)
             .background(
@@ -63,7 +63,7 @@ struct ContentView: View {
             Button {
                 withAnimation() {clockType = 1}
             } label: {
-                Text("Digital").foregroundColor(.primary)
+                Text(localized("Digital")).foregroundColor(.primary)
             }
             .padding(.horizontal).padding(.vertical, 10)
             .background(

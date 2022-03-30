@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>MiniClock</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,6 +29,9 @@
 		<string>ATTPhone.ttf</string>
 		<string>FFT.ttf</string>
 		<string>Pixel-LCD.ttf</string>
+		<string>Datdot-K7prl.ttf</string>
+		<string>E1234-p7pER.ttf</string>
+		<string>EHSMB.TTF</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
