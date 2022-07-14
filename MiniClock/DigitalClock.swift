@@ -21,7 +21,7 @@ struct DigitalClockView: View {
 //        "LCD AT&T Phone Time/Date",
 //        "Fanfare Ticker Semi-Italic",
 //        "Pixel LCD7",
-        
+        // maybe more fonts?
         "Datdot",
         "E1234",
         "Electronic Highway Sign",
