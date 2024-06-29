@@ -18,17 +18,17 @@ struct DigitalClockView: View {
     @State var isSettingSize: Bool = false
     
     let fonts: [String] = [
-//        "LCD AT&T Phone Time/Date",
-//        "Fanfare Ticker Semi-Italic",
-//        "Pixel LCD7",
         // maybe more fonts?
         "Datdot",
         "E1234",
         "Electronic Highway Sign",
+        "DatCub",
+        "DSEG7 Classic",
+        "DSEG14 Classic",
     ]
     let fontSizeScales: [CGFloat] = [
 //        1.0, 1.0, 0.6,
-        0.8, 0.55, 0.7,
+        0.8, 0.55, 0.7, 0.8, 0.6, 0.6,
     ]
     let foreColors: [Color] = [
         .primary,
@@ -194,4 +194,8 @@ struct DigitalClockView: View {
             }.accentColor(.gray)
         }
     }
+}
+
+#Preview {
+    DigitalClockView(configMode: .constant(true))
 }

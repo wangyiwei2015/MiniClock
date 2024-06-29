@@ -80,3 +80,7 @@ struct ContentView: View {
         .transition(.move(edge: .top))
     }
 }
+
+#Preview {
+    ContentView()
+}

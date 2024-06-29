@@ -26,10 +26,10 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>ATTPhone.ttf</string>
-		<string>FFT.ttf</string>
-		<string>Pixel-LCD.ttf</string>
 		<string>Datdot-K7prl.ttf</string>
+		<string>DSEG14Classic-Regular.ttf</string>
+		<string>DSEG7Classic-Regular.ttf</string>
+		<string>DatCub-Regular.ttf</string>
 		<string>E1234-p7pER.ttf</string>
 		<string>EHSMB.TTF</string>
 	</array>

@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D525CBE27829E030043164B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D525CBD27829E030043164B /* Utils.swift */; };
-		1D7BFC2F27808EFC00AEA158 /* FFT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BFC2C27808EFB00AEA158 /* FFT.ttf */; };
-		1D7BFC3027808EFC00AEA158 /* Pixel-LCD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */; };
-		1D7BFC3127808EFC00AEA158 /* ATTPhone.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */; };
 		1D915F16278086C800205FBC /* DigitalClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D915F15278086C800205FBC /* DigitalClock.swift */; };
 		1D915F1B278086E700205FBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D915F1A278086E700205FBC /* ContentView.swift */; };
 		1DDDA74F27817034008C896E /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDA74E27817034008C896E /* Prefs.swift */; };
@@ -22,13 +19,13 @@
 		4DA546D927F44DA200CD04EF /* E1234-p7pER.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D427F44C2100CD04EF /* E1234-p7pER.ttf */; };
 		4DA546DA27F44DA200CD04EF /* Datdot-K7prl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D327F44BFA00CD04EF /* Datdot-K7prl.ttf */; };
 		4DA546DB27F44DA200CD04EF /* EHSMB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D527F44C2100CD04EF /* EHSMB.TTF */; };
+		B3F6C4322C30364A008CB576 /* DatCub-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4312C30364A008CB576 /* DatCub-Regular.ttf */; };
+		B3F6C4342C3036D8008CB576 /* DSEG7Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4332C3036D8008CB576 /* DSEG7Classic-Regular.ttf */; };
+		B3F6C4362C30370E008CB576 /* DSEG14Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4352C30370E008CB576 /* DSEG14Classic-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D525CBD27829E030043164B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		1D7BFC2C27808EFB00AEA158 /* FFT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FFT.ttf; sourceTree = "<group>"; };
-		1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pixel-LCD.ttf"; sourceTree = "<group>"; };
-		1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ATTPhone.ttf; sourceTree = "<group>"; };
 		1D915F15278086C800205FBC /* DigitalClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClock.swift; sourceTree = "<group>"; };
 		1D915F1A278086E700205FBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1DDDA74E27817034008C896E /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
@@ -43,6 +40,9 @@
 		4DA546D327F44BFA00CD04EF /* Datdot-K7prl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Datdot-K7prl.ttf"; sourceTree = "<group>"; };
 		4DA546D427F44C2100CD04EF /* E1234-p7pER.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "E1234-p7pER.ttf"; sourceTree = "<group>"; };
 		4DA546D527F44C2100CD04EF /* EHSMB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = EHSMB.TTF; sourceTree = "<group>"; };
+		B3F6C4312C30364A008CB576 /* DatCub-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DatCub-Regular.ttf"; sourceTree = "<group>"; };
+		B3F6C4332C3036D8008CB576 /* DSEG7Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Regular.ttf"; sourceTree = "<group>"; };
+		B3F6C4352C30370E008CB576 /* DSEG14Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,8 @@
 		1D7BFC2A27808EE800AEA158 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B3F6C4302C3035E9008CB576 /* New2406 */,
 				4DA546CF27F44BED00CD04EF /* New */,
-				1D7BFC2C27808EFB00AEA158 /* FFT.ttf */,
-				1D7BFC2E27808EFC00AEA158 /* ATTPhone.ttf */,
-				1D7BFC2D27808EFC00AEA158 /* Pixel-LCD.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -118,6 +116,16 @@
 				4DA546D527F44C2100CD04EF /* EHSMB.TTF */,
 			);
 			path = New;
+			sourceTree = "<group>";
+		};
+		B3F6C4302C3035E9008CB576 /* New2406 */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6C4352C30370E008CB576 /* DSEG14Classic-Regular.ttf */,
+				B3F6C4332C3036D8008CB576 /* DSEG7Classic-Regular.ttf */,
+				B3F6C4312C30364A008CB576 /* DatCub-Regular.ttf */,
+			);
+			path = New2406;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,15 +186,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D7BFC3127808EFC00AEA158 /* ATTPhone.ttf in Resources */,
 				4DA546D927F44DA200CD04EF /* E1234-p7pER.ttf in Resources */,
+				B3F6C4362C30370E008CB576 /* DSEG14Classic-Regular.ttf in Resources */,
 				4DA546DA27F44DA200CD04EF /* Datdot-K7prl.ttf in Resources */,
 				4DA546DB27F44DA200CD04EF /* EHSMB.TTF in Resources */,
 				4DA546CB27F4438D00CD04EF /* Localizable.strings in Resources */,
-				1D7BFC3027808EFC00AEA158 /* Pixel-LCD.ttf in Resources */,
-				1D7BFC2F27808EFC00AEA158 /* FFT.ttf in Resources */,
 				1DFF2745277DC4C20061D3D6 /* Preview Assets.xcassets in Resources */,
+				B3F6C4322C30364A008CB576 /* DatCub-Regular.ttf in Resources */,
 				1DFF2742277DC4C20061D3D6 /* Assets.xcassets in Resources */,
+				B3F6C4342C3036D8008CB576 /* DSEG7Classic-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -329,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -345,20 +353,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MiniClock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "μCιοcκ";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5.0;
+				MARKETING_VERSION = 0.6.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,20 +382,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MiniClock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "μCιοcκ";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5.0;
+				MARKETING_VERSION = 0.6.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
