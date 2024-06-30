@@ -22,8 +22,8 @@ struct Provider: AppIntentTimelineProvider {
 
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
-        for secOffset in 0 ..< 3600 * 6 {
-            let entryDate = Calendar.current.date(byAdding: .second, value: secOffset, to: currentDate)!
+        for secOffset in 0 ..< 60 * 12 {
+            let entryDate = Calendar.current.date(byAdding: .minute, value: secOffset, to: currentDate)!
             let entry = SimpleEntry(date: entryDate, configuration: configuration)
             entries.append(entry)
         }
@@ -118,7 +118,7 @@ struct microClkWidget: Widget {
             microClkWidgetEntryView(entry: entry)
                 .containerBackground(.fill.tertiary, for: .widget)
         }
-        .configurationDisplayName("display name")
+        .configurationDisplayName("Digital Clock")
         .contentMarginsDisabled()
         .supportedFamilies([.accessoryRectangular, .systemSmall, .systemMedium, .systemLarge, .systemExtraLarge])
         //.disfavoredLocations([.], for: [])
