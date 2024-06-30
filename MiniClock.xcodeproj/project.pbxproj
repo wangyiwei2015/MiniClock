@@ -22,7 +22,45 @@
 		B3F6C4322C30364A008CB576 /* DatCub-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4312C30364A008CB576 /* DatCub-Regular.ttf */; };
 		B3F6C4342C3036D8008CB576 /* DSEG7Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4332C3036D8008CB576 /* DSEG7Classic-Regular.ttf */; };
 		B3F6C4362C30370E008CB576 /* DSEG14Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4352C30370E008CB576 /* DSEG14Classic-Regular.ttf */; };
+		B3F6C43E2C305891008CB576 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6C43D2C305890008CB576 /* WidgetKit.framework */; };
+		B3F6C4402C305891008CB576 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3F6C43F2C305891008CB576 /* SwiftUI.framework */; };
+		B3F6C4432C305891008CB576 /* microClkWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F6C4422C305891008CB576 /* microClkWidgetBundle.swift */; };
+		B3F6C4452C305891008CB576 /* microClkWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F6C4442C305891008CB576 /* microClkWidget.swift */; };
+		B3F6C4472C305891008CB576 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F6C4462C305891008CB576 /* AppIntent.swift */; };
+		B3F6C4492C305891008CB576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4482C305891008CB576 /* Assets.xcassets */; };
+		B3F6C44D2C305891008CB576 /* microClkWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B3F6C43B2C305890008CB576 /* microClkWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B3F6C4522C313BB2008CB576 /* Datdot-K7prl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D327F44BFA00CD04EF /* Datdot-K7prl.ttf */; };
+		B3F6C4532C313BB4008CB576 /* E1234-p7pER.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D427F44C2100CD04EF /* E1234-p7pER.ttf */; };
+		B3F6C4542C313BB7008CB576 /* EHSMB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4DA546D527F44C2100CD04EF /* EHSMB.TTF */; };
+		B3F6C4552C313BBC008CB576 /* DSEG7Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4332C3036D8008CB576 /* DSEG7Classic-Regular.ttf */; };
+		B3F6C4562C313BBE008CB576 /* DatCub-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4312C30364A008CB576 /* DatCub-Regular.ttf */; };
+		B3F6C4572C313BC1008CB576 /* DSEG14Classic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F6C4352C30370E008CB576 /* DSEG14Classic-Regular.ttf */; };
+		B3F6C4582C318CFA008CB576 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D525CBD27829E030043164B /* Utils.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3F6C44B2C305891008CB576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DFF2732277DC4B60061D3D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3F6C43A2C305890008CB576;
+			remoteInfo = microClkWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3F6C44E2C305891008CB576 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B3F6C44D2C305891008CB576 /* microClkWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D525CBD27829E030043164B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -43,6 +81,14 @@
 		B3F6C4312C30364A008CB576 /* DatCub-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DatCub-Regular.ttf"; sourceTree = "<group>"; };
 		B3F6C4332C3036D8008CB576 /* DSEG7Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Regular.ttf"; sourceTree = "<group>"; };
 		B3F6C4352C30370E008CB576 /* DSEG14Classic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG14Classic-Regular.ttf"; sourceTree = "<group>"; };
+		B3F6C43B2C305890008CB576 /* microClkWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = microClkWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F6C43D2C305890008CB576 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B3F6C43F2C305891008CB576 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B3F6C4422C305891008CB576 /* microClkWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microClkWidgetBundle.swift; sourceTree = "<group>"; };
+		B3F6C4442C305891008CB576 /* microClkWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microClkWidget.swift; sourceTree = "<group>"; };
+		B3F6C4462C305891008CB576 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		B3F6C4482C305891008CB576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3F6C44A2C305891008CB576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +96,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F6C4382C305890008CB576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F6C4402C305891008CB576 /* SwiftUI.framework in Frameworks */,
+				B3F6C43E2C305891008CB576 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				1DFF273C277DC4B60061D3D6 /* MiniClock */,
+				B3F6C4412C305891008CB576 /* microClkWidget */,
+				B3F6C43C2C305890008CB576 /* Frameworks */,
 				1DFF273B277DC4B60061D3D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				1DFF273A277DC4B60061D3D6 /* MiniClock.app */,
+				B3F6C43B2C305890008CB576 /* microClkWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +186,27 @@
 			path = New2406;
 			sourceTree = "<group>";
 		};
+		B3F6C43C2C305890008CB576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6C43D2C305890008CB576 /* WidgetKit.framework */,
+				B3F6C43F2C305891008CB576 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3F6C4412C305891008CB576 /* microClkWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6C4422C305891008CB576 /* microClkWidgetBundle.swift */,
+				B3F6C4442C305891008CB576 /* microClkWidget.swift */,
+				B3F6C4462C305891008CB576 /* AppIntent.swift */,
+				B3F6C4482C305891008CB576 /* Assets.xcassets */,
+				B3F6C44A2C305891008CB576 /* Info.plist */,
+			);
+			path = microClkWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,15 +217,34 @@
 				1DFF2736277DC4B60061D3D6 /* Sources */,
 				1DFF2737277DC4B60061D3D6 /* Frameworks */,
 				1DFF2738277DC4B60061D3D6 /* Resources */,
+				B3F6C44E2C305891008CB576 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B3F6C44C2C305891008CB576 /* PBXTargetDependency */,
 			);
 			name = MiniClock;
 			productName = MiniClock;
 			productReference = 1DFF273A277DC4B60061D3D6 /* MiniClock.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B3F6C43A2C305890008CB576 /* microClkWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F6C4512C305891008CB576 /* Build configuration list for PBXNativeTarget "microClkWidgetExtension" */;
+			buildPhases = (
+				B3F6C4372C305890008CB576 /* Sources */,
+				B3F6C4382C305890008CB576 /* Frameworks */,
+				B3F6C4392C305890008CB576 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microClkWidgetExtension;
+			productName = microClkWidgetExtension;
+			productReference = B3F6C43B2C305890008CB576 /* microClkWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -154,11 +252,14 @@
 		1DFF2732277DC4B60061D3D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					1DFF2739277DC4B60061D3D6 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					B3F6C43A2C305890008CB576 = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -177,6 +278,7 @@
 			projectRoot = "";
 			targets = (
 				1DFF2739277DC4B60061D3D6 /* MiniClock */,
+				B3F6C43A2C305890008CB576 /* microClkWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +300,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3F6C4392C305890008CB576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F6C4542C313BB7008CB576 /* EHSMB.TTF in Resources */,
+				B3F6C4492C305891008CB576 /* Assets.xcassets in Resources */,
+				B3F6C4562C313BBE008CB576 /* DatCub-Regular.ttf in Resources */,
+				B3F6C4532C313BB4008CB576 /* E1234-p7pER.ttf in Resources */,
+				B3F6C4522C313BB2008CB576 /* Datdot-K7prl.ttf in Resources */,
+				B3F6C4552C313BBC008CB576 /* DSEG7Classic-Regular.ttf in Resources */,
+				B3F6C4572C313BC1008CB576 /* DSEG14Classic-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -214,7 +330,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3F6C4372C305890008CB576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F6C4432C305891008CB576 /* microClkWidgetBundle.swift in Sources */,
+				B3F6C4452C305891008CB576 /* microClkWidget.swift in Sources */,
+				B3F6C4472C305891008CB576 /* AppIntent.swift in Sources */,
+				B3F6C4582C318CFA008CB576 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3F6C44C2C305891008CB576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3F6C43A2C305890008CB576 /* microClkWidgetExtension */;
+			targetProxy = B3F6C44B2C305891008CB576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4DA546CD27F4438D00CD04EF /* Localizable.strings */ = {
@@ -350,10 +485,11 @@
 		1DFF274A277DC4C20061D3D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
@@ -365,7 +501,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.1;
+				MARKETING_VERSION = 0.6.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -379,10 +515,11 @@
 		1DFF274B277DC4C20061D3D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "\"MiniClock/Preview Content\"";
 				DEVELOPMENT_TEAM = JS2ME2LTBF;
 				ENABLE_PREVIEWS = YES;
@@ -394,12 +531,85 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.1;
+				MARKETING_VERSION = 0.6.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3F6C44F2C305891008CB576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = microClkWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = microClkWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock.microClkWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3F6C4502C305891008CB576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = microClkWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = microClkWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.MiniClock.microClkWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,6 +632,15 @@
 			buildConfigurations = (
 				1DFF274A277DC4C20061D3D6 /* Debug */,
 				1DFF274B277DC4C20061D3D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F6C4512C305891008CB576 /* Build configuration list for PBXNativeTarget "microClkWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F6C44F2C305891008CB576 /* Debug */,
+				B3F6C4502C305891008CB576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
